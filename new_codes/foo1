@@ -1,0 +1,9 @@
+#! /bin/bash
+ech
+if [[ "${UID}" -ne 0 ]]; then
+	echo "You're a normal user"
+	exit 0
+else
+	echo "WTF?! You are root!!!"
+	exit 1
+fi
