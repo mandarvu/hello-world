@@ -1,5 +1,6 @@
 #! /bin/bash
-ech
+# echo "Hello there"
+
 if [[ "${UID}" -ne 0 ]]; then
 	echo "You're a normal user"
 	exit 0
